@@ -1,6 +1,6 @@
 /*
 
-DIGITAL TREND
+Template: DIGITAL TREND
 
 https://templatemo.com/tm-538-digital-trend
 
@@ -37,8 +37,7 @@ https://templatemo.com/tm-538-digital-trend
     --dark-color:           #014bae;
     --project-bg:           #f0f8ff;
     --menu-bg:              #438ff3;
-
-    /*dark colour: #171819 */
+    
 
     --title-color:          #15141a;
     --gray-color:           #909090;
@@ -364,6 +363,26 @@ https://templatemo.com/tm-538-digital-trend
 
 
 
+/*---------------------------------------
+   HEADER
+-----------------------------------------*/
+
+.head {
+  position: relative;
+  padding: 0em;
+  overflow: hidden;
+}
+
+.head-bg {
+  background: var(--primary-color);
+}
+
+.head-image {
+  position: relative;
+  top: 0em;
+}
+
+
   /*---------------------------------------
      PROJECT              
   -----------------------------------------*/
@@ -371,6 +390,7 @@ https://templatemo.com/tm-538-digital-trend
   .project {
     background: var(--project-bg);
   }
+
 
   .project-wrapper {
     position: relative;
@@ -487,6 +507,56 @@ https://templatemo.com/tm-538-digital-trend
   }
 
 
+/*---------------------------------------
+   UPDATE
+-----------------------------------------*/
+
+.site-section {
+  padding: 2.5em 0; }
+@media (min-width: 768px) {
+  .site-section {
+    padding: 7em 0; } }
+.site-section.site-section-sm {
+  padding: 4em 0; }
+
+.site-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 2.5rem; }
+@media (min-width: 768px) {
+  .site-section-heading {
+    font-size: 3rem; } }
+
+
+.half-post-entry .caption {
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem; }
+
+.half-post-entry .img-bg, .half-post-entry .contents {
+  width: 50%; }
+@media (max-width: 991.98px) {
+  .half-post-entry .img-bg, .half-post-entry .contents {
+    width: 100%;
+    height: 300px; } }
+
+.half-post-entry .img-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.half-post-entry .contents {
+  padding: 50px;
+  font-size: .9rem;
+  height: auto; }
+@media (max-width: 991.98px) {
+  .half-post-entry .contents {
+    padding: 30px; } }
+.half-post-entry .contents h2 {
+  font-size: 26px; }
+.half-post-entry .contents h2 a {
+  color: #000; }
 
   /*---------------------------------------
       BLOG            
@@ -533,7 +603,6 @@ https://templatemo.com/tm-538-digital-trend
   .blog-sidebar h3 {
     font-size: 18px;
   }
-
 
 
   /*---------------------------------------
@@ -655,6 +724,18 @@ https://templatemo.com/tm-538-digital-trend
       bottom: 2em;
     }
 
+
+    .head {
+      position: relative;
+      padding: 0em;
+      overflow: hidden;
+    }
+
+    .head-image {
+      position: relative;
+      top: 0em;
+    }
+
     .navbar {
       padding: 1em;
     }
@@ -714,5 +795,3 @@ https://templatemo.com/tm-538-digital-trend
       margin-left: 0;
     }
   }
-
-
