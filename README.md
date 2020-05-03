@@ -1,2 +1,2 @@
 # Frontline-First
-http://frontlinefirst.ca/index.html
+http://frontlinefirst.ca/
