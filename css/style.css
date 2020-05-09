@@ -1,4 +1,8 @@
- @font-face {
+/*---------------------------------------
+     GENERAL            
+  -----------------------------------------*/
+
+@font-face {
       font-family: 'Plain-Regular';
       src: url('../fonts/Plain-Regular.woff2') format('woff2'),
           url('../fonts/Plain-Regular.woff') format('woff');
