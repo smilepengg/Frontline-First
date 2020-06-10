@@ -63,46 +63,90 @@
 </nav>
 
 
-<!-- CONTACT -->
-<section class="contact section-padding">
+<section class="project-detail">
     <div class="container">
         <div class="row">
+            <div class="col-lg-9 mx-auto col-md-11 col-12 my-5 pt-3" data-aos="fade-up">
 
-            <div class="col-lg-6 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
+                <h2 class="mb-3">Introducing Our <strong>Community Care Project</strong>!</h2>
+                <p>
+                    The team at <strong>Frontline First</strong> has been very grateful for all of the support we have received. We have been <strong>immensely
+                    successful</strong> at our goal of fundraising for PPE and directly helping our frontline workers at Ottawa hospitals. Our
+                    team has hit <strong>significant milestones</strong>, such as reaching more than half our goal of $10,000 in monetary donations, as
+                    well as donating to every hospital in Ottawa at least once! <strong>We are thankful</strong> to our supporters and every sponsor who
+                    has been kind enough to offer supplies that further encourage all hospital staff.
+                </p>
+                <p>
+                    Therefore, we are thrilled to announce that Frontline First will be making an official <strong>expansion</strong>! We are launching our
+                    <strong>Community Care project</strong> that aims to support and donate to <strong>long term care homes, retirement homes and women’s shelters</strong>.
+                    These facilities are known to protect some of our population’s <strong>most vulnerable individuals</strong>, with passionate frontliners
+                    such as nurses, PSWs, therapists and physicians working tirelessly and risking their lives daily. Under the circumstances
+                    of COVID-19, we are certain that such facilities are in need of our utmost support.
+                </p>
+                <p>
+                    If you are aware of a facility such as those mentioned above that may require our aid, please find the <strong>request form</strong> below, to
+                    specify the institution name, contact information and most needed supplies. We ensure that we will <strong>review all applications
+                    in a timely manner</strong>.
+                </p>
+                <p>
+                    With the help of our sponsors, donors and the <strong>Frontline First Sewing Crew</strong>, we will be directly delivering supplies based on our
+                    inventory of <strong>face masks, face shields, hand sanitizer and in kind donations such as coffee, energy drinks, meals and skin care products</strong>.
+                </p>
+                <p>
+                At Frontline First, we believe in the action of giving back. We are deeply moved by the dedication of all Frontline workers, especially
+                    in the conditions of the COVID-19 pandemic. It is time for us, as members of the community, through the Community Care project, to
+                    care for and support those who continuously and diligently protect us and our loved ones.
+                </p>
 
-                <h1 class="mb-4">Want to <strong>learn</strong> more about us? Let's <strong>talk</strong>!</h1>
-
-                <p>Send us an <a href="mailto:frontlinefirst2020@gmail.com">email at <strong>frontlinefirst2020@gmail.com</strong></a> and we will reply as soon as possible!</p>
-                <p>Or DM us through our <a href="https://www.instagram.com/frontlinefirst_/">Instagram <strong> @frontlinefirst_</strong></a></p>
-
-                <form action="contactform.php" method="POST" class="contact-form" data-aos="fade-up" data-aos-delay="300" role="form">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <input type="text" class="form-control" name="name" placeholder="Name">
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <input type="email" class="form-control" name="email" placeholder="Email">
-                        </div>
-
-                        <div class="col-lg-12 col-12">
-                            <textarea class="form-control" rows="6" name="msg" placeholder="Message"></textarea>
-                        </div>
-
-                        <div class="col-lg-5 mx-auto col-7">
-                            <button type="submit" class="form-control" id="submit-button" name="submit">Submit</button>
-                        </div>
-                    </div>
-
-                </form>
             </div>
-
-
-
         </div>
     </div>
 </section>
 
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-6 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
+
+            <h1 class="mb-4">Fill out the form <strong>form</strong></h1>
+
+            <form class="contact-form gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                  action="https://script.google.com/macros/s/AKfycbywiD6opJTYwz1GEcL43jy2AMLriT0EMO_9GUXV/exec" data-aos="fade-up" data-aos-delay="300" role="form">
+
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <input type="text" class="form-control" id="email" name="email" type="email" required placeholder="Email"/>
+                        <span class="email-invalid" style="display:none">
+                                    Must be a valid email address!</span>
+                    </div>
+
+                    <div class="col-lg-12 col-12">
+                                    <textarea class="form-control" rows="6" id="message" name="message" rows="10"
+                                              placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="col-lg-5 mx-auto col-7">
+                        <button type="submit" class="form-control" id="submit-button" name="submit">Submit</button>
+                    </div>
+
+                    <!-- Customise the Thankyou Message People See when they submit the form: -->
+                    <div class="thankyou_message" style="display:none;">
+                        <h2>Thank you for contacting us, we will be in contact with you soon!</h2>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+</section>
 
 <!--footer-->
 <footer class="site-footer">
