@@ -135,53 +135,48 @@
     </div>
 </section>
 
-<div class="container">
-    <div class="row">
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
+                <h1 class="mb-4">Fill out the <strong>form</strong> here!</h1>
+                <p>
+                    In the request form below, please write us a paragraph explaining: which <strong>facility</strong> is in need of our support, <strong>why it would be a good candidate</strong>
+                    for our support, and finally <strong>what kind of donations</strong> you are looking for. Our current inventory consists of: <strong>handmade masks, face shields, hand
+                    sanitizer, energy bars, energy drinks/other beverages, packed lunches, skincare, and makeup</strong>. Thank you and we look forward to reading your submissions.
+                </p>
 
-        <div class="col-lg-6 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
-
-            <h1 class="mb-4">Fill out the <strong>form</strong> here!</h1>
-            <p>
-                In the request form below, please write us a paragraph explaining: which <strong>facility</strong> is in need of our support, <strong>why it would be a good candidate</strong>
-                for our support, and finally <strong>what kind of donations</strong> you are looking for. Our current inventory consists of: <strong>handmade masks, face shields, hand
-                sanitizer, energy bars, energy drinks/other beverages, packed lunches, skincare, and makeup</strong>. Thank you and we look forward to reading your submissions.
-            </p>
-
-            <form class="contact-form gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                <form class="contact-form gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
                   action="https://script.google.com/macros/s/AKfycbywiD6opJTYwz1GEcL43jy2AMLriT0EMO_9GUXV/exec" data-aos="fade-up" data-aos-delay="300" role="form">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+                        </div>
 
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <input type="text" class="form-control" id="email" name="email" type="email" required placeholder="Email"/>
-                        <span class="email-invalid" style="display:none">
+                        <div class="col-lg-6 col-12">
+                            <input type="text" class="form-control" id="email" name="email" type="email" required placeholder="Email"/>
+                            <span class="email-invalid" style="display:none">
                                     Must be a valid email address!</span>
-                    </div>
+                        </div>
 
-                    <div class="col-lg-12 col-12">
+                        <div class="col-lg-12 col-12">
                                     <textarea class="form-control" rows="6" id="message" name="message" rows="10"
                                               placeholder="Message"></textarea>
-                    </div>
+                        </div>
 
-                    <div class="col-lg-5 mx-auto col-7">
-                        <button type="submit" class="form-control" id="submit-button" name="submit">Submit</button>
-                    </div>
+                        <div class="col-lg-5 mx-auto col-7">
+                            <button type="submit" class="form-control" id="submit-button" name="submit">Submit</button>
+                        </div>
 
-                    <!-- Customise the Thankyou Message People See when they submit the form: -->
-                    <div class="thankyou_message" style="display:none;">
-                        <h2>Thank you for contacting us, we will be in contact with you soon!</h2>
+                    <!-- Message after filling out form: -->
+                        <div class="thankyou_message" style="display:none;">
+                            <h2>Thank you for contacting us, we will be in contact with you soon!</h2>
+                        </div>
                     </div>
-                </div>
-            </form>
-
+                </form>
+            </div>
         </div>
-
     </div>
-</div>
-
 </section>
 
 <!--footer-->
